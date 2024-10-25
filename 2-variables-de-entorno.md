@@ -1,6 +1,6 @@
 # Variables de Entorno
 ### ¿Qué son las variables de entorno
-# COMPLETAR
+Las variables de entorno son un mecanismo utilizado por los sistemas operativos para almacenar información y configuraciones globales que afectan el comportamiento de procesos y aplicaciones que se ejecutan en ese sistema. Estas variables contienen información sobre el entorno del sistema, como la ubicación de directorios, las configuraciones de red, credenciales, preferencias de usuario, entre otras.
 
 ### Para crear un contenedor con variables de entorno?
 
@@ -10,21 +10,26 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 
 ### Crear un contenedor a partir de la imagen de nginx:alpine con las siguientes variables de entorno: username y role. Para la variable de entorno rol asignar el valor admin.
 
-# COMPLETAR
-
+![Imagen](img/ing8.png) 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+![Imagen](img/img9.png) 
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos
-# COMPLETAR
+![Imagen](img/img10.png) 
+
 
 ### ¿El contenedor se está ejecutando?
-# COMPLETAR
+No!
+![Imagen](img/img11.png) 
+
 
 ### Identificar el problema
-# COMPLETAR
+![Imagen](img/img12.png) 
+
 
 ### Eliminar el contenedor creado con mysql:8 
-# COMPLETAR
+![Imagen](img/img13.png) 
+
 
 ### Para crear un contenedor con variables de entorno especificadas
 - Portabilidad: Las aplicaciones se vuelven más portátiles y pueden ser desplegadas en diferentes entornos (desarrollo, pruebas, producción) simplemente cambiando el archivo de variables de entorno.
@@ -41,9 +46,11 @@ docker run -d --name <nombre contenedor> --env-file=<nombreArchivo>.<extensión>
 Es necesario especificar la ruta absoluta del archivo si este se encuentra en una ubicación diferente a la que estás ejecutando el comando docker run.
 
 ### Crear un contenedor con mysql:8 , mapear todos los puertos y configurar las variables de entorno mediante un archivo
-# COMPLETAR
+![Imagen](img/img14.png) 
+
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
+![Imagen](img/img15.png) 
 
 ### ¿Qué bases de datos existen en el contenedor creado?
-# COMPLETAR
+![Imagen](img/img16.png) 
